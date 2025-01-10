@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(uefa-avrupa-ligiaa-2233160.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 550px;
+    background-image: url(0405d47d2f7ecbee7eb09cd5a941caa2.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 850px;
+    padding: 1rem;
+    border: 3px solid white;
+}
+
+img{
+    display: flex;
+    height: 150px;
+    padding-left:   0.50rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-a{
+    border-radius: 50%;
+}
+
+.img-b{
+    border-radius: 50%;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 550px;
+    background-image: url(0405d47d2f7ecbee7eb09cd5a941caa2.jpg);
+    background-size: cover;
+    margin-left: 130px;
+    border-radius: 30px;
+    padding: 1rem;
+    border: 3px solid white;
+}
+
+.teamscore{
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.teamname{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.updownbutton{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+.updownbutton > button{
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.updownbutton > button:hover{
+    background-color: gray;
+}
+
+.manuelcontrolsbutton{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.manuelcontrolsbutton > button{
+    width: 100px;
+    height: 30px;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.manuelcontrolsbutton > button:hover{
+    background-color: gray;
+}
+
+
+footer{
+    height: 50px;
+    background-color: rgb(53, 50, 50);
+}
+
+.footer-name{
+    text-align: center; 
+    color: white;
+}
+
+
+

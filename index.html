@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrettin Emre UÇAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-1" id="teamA">
+            <div class="img">
+                <img class="img-a" src="1.takım.png" alt="...">
+            </div>
+            <p class="teamscore" id="scoreA">0</p> 
+            <h2 class="teamname">Takım A</h2>
+            <div class="updownbutton">
+                <button onclick="decreaseScore('A')">↓</button>
+                <button onclick="increaseScore('A')">↑</button>
+            </div>
+            <div class="manuelcontrolsbutton">
+                <button onclick="setScorePrompt('A')">Mevcut Skor</button>
+                <button onclick="setNamePrompt('A')">Takım İsmi:</button>
+                <button id="resetButtonA">Yenile</button> 
+            </div>
+        </div>
+        <div class="box-2" id="teamB">
+            <div class="img">
+                <img class="img-b" src="2.takım.png" alt="...">
+            </div>
+            <p class="teamscore" id="scoreB">0</p>
+            <h2 class="teamname">Takım B</h2>
+            <div class="updownbutton">
+                <button onclick="decreaseScore('B')">↓</button>
+                <button onclick="increaseScore('B')">↑</button>
+            </div>
+            <div class="manuelcontrolsbutton">
+                <button onclick="setScorePrompt('B')">Mevcut Skor</button>
+                <button onclick="setNamePrompt('B')">Takım İsmi</button>
+                <button id="resetButtonB">Yenile</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-name">F.EMRE UÇAR</p>
+    </footer>
+    <script src="scrript.js"></script>
+
+
+</body>
+</html>
